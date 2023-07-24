@@ -1,0 +1,170 @@
+body{
+    background-color: #E7A8B1;
+    font-family: 'Chakra Petch', cursive;
+    color: #17183B;
+}
+
+.title-viajeEsp{
+    background-color: #FDEFB0;
+    font-family: 'Mynerve', cursive;
+    font-size: 40px;
+    color: #944654;
+    text-align: center;
+}
+
+.title-comenzar{
+    font-family: 'Mynerve', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .navegador{
+    background-color: #B998B3;
+    list-style: none;
+    width: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: auto;
+
+}
+
+nav .navegador a{ /*Editando el texto (las anclas)*/
+    color: #06060f;
+    font-family: 'Mynerve', cursive;
+    font-size: 20px;
+    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 40px;
+    
+}
+
+nav .navegador .anclaUno{
+    margin-left: 0%;
+}
+
+  
+nav .navegador a:hover {
+    text-shadow: 1px 1px 2px #06060f;
+  }
+
+.lista-ind{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+
+/***************IMAGENES****************/
+.gatoPlaneta{
+    width: 200px;
+}
+
+/***************ÍNDICE****************/
+
+main nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav .indice{
+    background-image: url(/images/spasio.gif);
+    list-style: none;
+    width: 900px;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: auto;
+}
+
+nav .indice a{
+    font-size: 40px;
+    color: #CDDDDD;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+nav .indice a:hover{
+    color: #FDEFB0;
+}
+
+/***************TÍTULOS****************/
+
+.title-topEstrellas{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #06060f;
+    text-decoration-color: #CDDDDD;
+    color: #40798C;
+}
+
+.title-misiones{
+    text-shadow: 1px 1px 2px #06060f;
+    font-size: 40px;
+    color: #40798C;
+}
+
+.title-astrobiologia{
+    font-size: 50px;
+}
+
+.title-origenU{
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+
+.title-origenE{
+    font-size: 50px;
+}
+
+/***************LISTAS****************/
+.listaUno{
+    font-size: 20px;
+}
+
+.listaDos{
+    font-size: 20px;
+}
+
+
+/***************PÁRRAFOS****************/
+.p-origenUniverso{
+    text-align: justify;
+}
+
+.p-astrobiologia{
+    text-align: right;
+}
+
+.p-origenEstrellas{
+    text-align: justify;
+}
+
+/***************FORMULARIOS****************/
+.title-edadUni{
+    font-size: 25px;
+    color: #A599B5;
+}
+
+.title-misionesApolo{
+    font-size: 25px;
+    color: #A599B5;
+}
+
+.title-objetosCele{
+    font-size: 25px;
+    color: #A599B5;
+}
+
