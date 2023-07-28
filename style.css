@@ -69,6 +69,20 @@ nav .navegador a:hover {
     width: 200px;
 }
 
+.orgUniImagenTres{
+    width: 500px;
+
+}
+
+.imagenEstrellas{
+    width: 550px;
+}
+
+.imagenPotroEstrella{
+    width: 700px;
+}
+
+
 /***************ÍNDICE****************/
 
 main nav{
@@ -104,6 +118,7 @@ nav .indice a:hover{
 /***************TÍTULOS****************/
 
 .title-topEstrellas{
+    text-align: center;
     font-size: 40px;
     text-shadow: 1px 1px 2px #06060f;
     text-decoration-color: #CDDDDD;
@@ -122,7 +137,6 @@ nav .indice a:hover{
 
 .title-origenU{
     font-size: 50px;
-    text-decoration-line: underline;
 }
 
 .title-origenE{
@@ -131,8 +145,46 @@ nav .indice a:hover{
 
 /***************LISTAS****************/
 .listaUno{
+    background-color: #B998B3;
     font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
+
+.listaUno p{
+    border: 5px dotted #dadce0;
+}
+
+.listaUno li{
+    font-size: 30px;
+    text-shadow: 3px 3px 2px #E7A8B1;
+}
+
+.imagenes-centradas{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: auto;
+}
+
+.imagenes-centradas img{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.img-estrellaUno{
+    width: 300px;
+}
+
+.img-estrellaDos{
+    width: 700px;
+}
+
+.img-estrellaTres{
+    width: 390px;
+}
+
 
 .listaDos{
     font-size: 20px;
@@ -145,7 +197,7 @@ nav .indice a:hover{
 }
 
 .p-astrobiologia{
-    text-align: right;
+    text-align: justify;
 }
 
 .p-origenEstrellas{
@@ -153,18 +205,35 @@ nav .indice a:hover{
 }
 
 /***************FORMULARIOS****************/
+
+.title-formulario{
+    background-color: #944654;
+    font-family: 'Mynerve', cursive;
+    font-size: 40px;
+    color: #FDEFB0;
+    text-align: center;
+}
+
 .title-edadUni{
     font-size: 25px;
-    color: #A599B5;
+    color: #944654;
+    text-shadow: 3px 3px 2px #FDEFB0
 }
 
 .title-misionesApolo{
     font-size: 25px;
-    color: #A599B5;
-}
+    color: #944654;
+    text-shadow: 3px 3px 2px #FDEFB0}
 
 .title-objetosCele{
     font-size: 25px;
-    color: #A599B5;
-}
+    color: #944654;
+    text-shadow: 3px 3px 2px #FDEFB0}
+
+    button{
+        background-color:#FDEFB0;
+        border-color: 17183B;
+        color: 17183B;
+    }
+
 
